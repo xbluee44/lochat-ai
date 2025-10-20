@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat - LochatAi</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body class="chat-page">
+  <div class="sidebar">
+    <div class="side-header">
+      <img src="assets/logo.svg" alt="Logo">
+      <h3>LochatAi</h3>
+    </div>
+    <button class="new-chat-btn">+ Chat Baru</button>
+    <ul class="chat-list">
+      <li>Chat #1</li>
+      <li>Chat #2</li>
+    </ul>
+  </div>
+
+  <div class="chat-main">
+    <div class="chat-header">
+      <h2>LochatAi.com</h2>
+    </div>
+    <div id="chat-box" class="chat-box">
+      <div class="bot-msg">Hai! Saya <b>LochatAi</b>. Ada yang bisa saya bantu hari ini?</div>
+    </div>
+    <div class="chat-input">
+      <input id="userInput" type="text" placeholder="Tanyakan apa saja..." />
+      <button onclick="sendMessage()">Kirim</button>
+    </div>
+  </div>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
